@@ -6,7 +6,7 @@ pdf.add_page()
 pdf.image('pic1.jpg', w=80, h=50)
 
 pdf.set_font('helvetica', 'B', size=24)
-pdf.cell(w=0, h=50, text='Rabbits vs Hare', align='C')
+pdf.cell(w=0, h=50, text='Rabbits vs Hare', align='C', new_x=XPos.LMARGIN,new_y=YPos.NEXT)
 
 pdf.set_font('helvetica', 'B', size=14)
 pdf.cell(w=0, h=15, text='Description', new_x=XPos.LMARGIN,new_y=YPos.NEXT)
